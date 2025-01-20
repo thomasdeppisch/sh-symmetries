@@ -7,4 +7,7 @@ Thomas Deppisch and Jens Ahrens,
 Proc. of the Annual German Conference on Acoustics (DAGA), 2025.
 ```
 
-Considering these symmetries in signal processing algorithms that involve complex-valued SHs (or CHs) and are based on real-valued (time-domain) signals significantly reduces the required computations and memory.
+Considering these symmetries in signal processing algorithms that involve complex-valued SHs (or CHs) and are based on real-valued (time-domain) signals may significantly reduce the required computations and memory.
+
+The validation scripts use SH implementations from the [Spherical Harmonic Transform Library](https://github.com/polarch/Spherical-Harmonic-Transform.git), which is linked as submodule under `dependencies`. 
+Clone this repository using `git clone --recurse-submodules` to make sure the corresponding functions are available.
