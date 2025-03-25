@@ -1,7 +1,4 @@
 function Yc = convertRealToComplexShs(Yr)
-    % Compared to conversions in literature, these ones have an additional
-    % factor (-1)^m as the SHs are assumed to be implemented including the
-    % Condon-shortley phase.
 
     N = sqrt(size(Yr,2)) - 1;
     nm2acn = @(n_,m_) n_^2 + m_ + n_ + 1;
